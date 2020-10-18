@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 800,
+  "height": 600,
+  "title": {"text": "Disease burden by risk factor", "frame": "group"},
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/nirvashi-ramgutty/FIT3179/master/data/daly_2017.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/nirvashi-ramgutty/FIT3179/master/js/ne_110m_admin_0_countries.json",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_admin_0_countries",
+        "parse": {}
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"properties\"] && datum[\"properties\"][\"NAME\"]",
+          "as": "properties.NAME"
+        },
+        {
+          "type": "lookup",
+          "from": "source_1",
+          "key": "Entity",
+          "fields": ["properties.NAME"],
+          "values": ["Air_pollution"]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Air_pollution + 0.1",
+          "as": "Active Cases"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Air_pollution\"]) && isFinite(+datum[\"Air_pollution\"])"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "size": {"signal": "[width, height]"},
+      "fit": {"signal": "data('source_0')"},
+      "type": "equirectangular"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Air_pollution"},
+          "tooltip": {
+            "signal": "{\"Entity\": isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"], \"Air_pollution\": format(datum[\"Air_pollution\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"Air_pollution: \" + (format(datum[\"Air_pollution\"], \"\")) + \"; Entity: \" + (isValid(datum[\"properties.NAME\"]) ? datum[\"properties.NAME\"] : \"\"+datum[\"properties.NAME\"])"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "log",
+      "domain": {"data": "source_0", "field": "Air_pollution"},
+      "range": "heatmap",
+      "interpolate": "hcl"
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "labelOverlap": "greedy",
+      "title": "Air_pollution"
+    }
+  ],
+  "config": {}
+}
