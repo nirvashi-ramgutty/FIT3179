@@ -1,0 +1,305 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 800,
+  "height": 600,
+  "title": {
+    "text": "Death Rates from Air Pollution from 1990 to 2017",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {"name": "paintbrush_store"},
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/nirvashi-ramgutty/FIT3179/master/data/death_rates_by_continent.csv",
+      "format": {
+        "type": "csv",
+        "parse": {"Year": "date", "year_Year": "date"},
+        "delimiter": ","
+      },
+      "transform": [
+        {"type": "filter", "expr": "datum.air_pollution > 0"},
+        {
+          "type": "filter",
+          "expr": "Continent_selection == null || datum.Continent == Continent_selection"
+        },
+        {
+          "field": "Year",
+          "type": "timeunit",
+          "units": ["year"],
+          "as": ["year_Year", "year_Year_end"]
+        },
+        {
+          "field": "year_Year",
+          "type": "timeunit",
+          "units": ["year"],
+          "as": ["year_year_Year", "year_year_Year_end"]
+        },
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"year_Year\"]) || (isValid(datum[\"year_Year\"]) && isFinite(+datum[\"year_Year\"]))) && isValid(datum[\"air_pollution\"]) && isFinite(+datum[\"air_pollution\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "paintbrush",
+      "update": "vlSelectionResolve(\"paintbrush_store\", \"union\", true)"
+    },
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    },
+    {
+      "name": "paintbrush_tuple",
+      "on": [
+        {
+          "events": [
+            {
+              "source": "scope",
+              "type": "mouseover",
+              "filter": [
+                "event.item && indexof(event.item.mark.role, \"legend\") < 0"
+              ]
+            }
+          ],
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_0\", fields: paintbrush_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"Country\"]]} : null",
+          "force": true
+        }
+      ]
+    },
+    {
+      "name": "paintbrush_tuple_fields",
+      "value": [{"type": "E", "field": "Country"}]
+    },
+    {
+      "name": "paintbrush_toggle",
+      "value": false,
+      "on": [
+        {
+          "events": [
+            {
+              "source": "scope",
+              "type": "mouseover",
+              "filter": [
+                "event.item && indexof(event.item.mark.role, \"legend\") < 0"
+              ]
+            }
+          ],
+          "update": "event.shiftKey"
+        },
+        {
+          "events": {"merge": [{"source": "view", "type": "click"}]},
+          "update": "event.shiftKey"
+        }
+      ]
+    },
+    {
+      "name": "paintbrush_modify",
+      "on": [
+        {
+          "events": {"signal": "paintbrush_tuple"},
+          "update": "modify(\"paintbrush_store\", paintbrush_toggle ? null : paintbrush_tuple, paintbrush_toggle ? null : true, paintbrush_toggle ? paintbrush_tuple : null)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "symbol",
+      "style": ["circle"],
+      "interactive": true,
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.7},
+          "fill": {"scale": "color", "field": "Continent"},
+          "tooltip": {
+            "signal": "{\"Country\": isValid(datum[\"Country\"]) ? datum[\"Country\"] : \"\"+datum[\"Country\"], \"Year\": timeFormat(datum[\"year_year_Year\"], timeUnitSpecifier([\"year\"], {\"year-month\":\"%b %Y \",\"year-month-date\":\"%b %d, %Y \"})), \"Number of deaths per 10,000 people\": format(datum[\"air_pollution\"], \".2f\")}"
+          },
+          "ariaRoleDescription": {"value": "circle"},
+          "description": {
+            "signal": "\"Year: \" + (timeFormat(datum[\"year_Year\"], timeUnitSpecifier([\"year\"], {\"year-month\":\"%b %Y \",\"year-month-date\":\"%b %d, %Y \"}))) + \"; Death rate From Air pollution: \" + (format(datum[\"air_pollution\"], \"\")) + \"; Continent: \" + (isValid(datum[\"Continent\"]) ? datum[\"Continent\"] : \"\"+datum[\"Continent\"]) + \"; Country: \" + (isValid(datum[\"Country\"]) ? datum[\"Country\"] : \"\"+datum[\"Country\"]) + \"; Number of deaths per 10,000 people: \" + (format(datum[\"air_pollution\"], \".2f\"))"
+          },
+          "x": {"scale": "x", "field": "year_Year"},
+          "y": {"scale": "y", "field": "air_pollution"},
+          "size": [
+            {
+              "test": "!(length(data(\"paintbrush_store\"))) || (vlSelectionTest(\"paintbrush_store\", datum))",
+              "value": 60
+            },
+            {"value": 0.2}
+          ],
+          "shape": {"value": "circle"}
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "text",
+      "style": ["text"],
+      "interactive": true,
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "align": {"value": "right"},
+          "baseline": {"value": "line-top"},
+          "dx": {"value": -12},
+          "fontSize": {"value": 11.5},
+          "fontStyle": {"value": "italic"},
+          "fill": {"value": "black"},
+          "opacity": [
+            {
+              "test": "datum['air_pollution'] > 318 || datum['air_pollution'] < 8.5",
+              "value": 1
+            },
+            {"value": 0}
+          ],
+          "tooltip": {
+            "signal": "{\"Country\": isValid(datum[\"Country\"]) ? datum[\"Country\"] : \"\"+datum[\"Country\"], \"Year\": timeFormat(datum[\"year_year_Year\"], timeUnitSpecifier([\"year\"], {\"year-month\":\"%b %Y \",\"year-month-date\":\"%b %d, %Y \"})), \"Number of deaths per 10,000 people\": format(datum[\"air_pollution\"], \".2f\")}"
+          },
+          "description": {
+            "signal": "\"Year: \" + (timeFormat(datum[\"year_Year\"], timeUnitSpecifier([\"year\"], {\"year-month\":\"%b %Y \",\"year-month-date\":\"%b %d, %Y \"}))) + \"; Death rate From Air pollution: \" + (format(datum[\"air_pollution\"], \"\")) + \"; air_pollution: \" + (format(datum[\"air_pollution\"], \".2f\")) + \"; Country: \" + (isValid(datum[\"Country\"]) ? datum[\"Country\"] : \"\"+datum[\"Country\"]) + \"; Number of deaths per 10,000 people: \" + (format(datum[\"air_pollution\"], \".2f\"))"
+          },
+          "x": {"scale": "x", "field": "year_Year"},
+          "y": {"scale": "y", "field": "air_pollution"},
+          "text": {"signal": "format(datum[\"air_pollution\"], \".2f\")"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"signal": "{data: datetime(1989, 0, 1, 0, 0, 0, 0)}"},
+          {"signal": "{data: datetime(2017, 0, 1, 0, 0, 0, 0)}"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [0, 400],
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": [
+        "North America",
+        "South America",
+        "Europe",
+        "Africa",
+        "Asia",
+        "Oceania"
+      ],
+      "range": [
+        "#e41a1c",
+        "#984ea3",
+        "#ff7f00",
+        "#a6cee3",
+        "#377eb8",
+        "#a65628"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "tickCount": 6,
+      "gridScale": "x",
+      "grid": true,
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Year",
+      "format": {
+        "signal": "timeUnitSpecifier([\"year\"], {\"year-month\":\"%b %Y \",\"year-month-date\":\"%b %d, %Y \"})"
+      },
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Death rate From Air pollution",
+      "tickCount": 6,
+      "labelOverlap": true,
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "circle",
+      "title": "Continent",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.7}}}}
+    }
+  ],
+  "config": {}
+}
