@@ -22,7 +22,7 @@
       font-weight: 900;
     }
      body{
-       background-color: lightgray;
+       background-color: white;
      }
      .page{
        width: 850px;    
@@ -121,8 +121,10 @@
   </div> <!-- end page -->
    
 <script type="text/javascript">
-  var specVis1 = "js/map.json";
-  var specVis2= "./line-chart-responsive.json";
+  var specVis1 = "js/risk_factor_barplot.vg.json";
+  var specVis2= "js/pollution_map.vg.json";
+  var specVis3= "js/world_pollution_category.vg.json";
+  var specVis4= "js/continent_country_chart.vg.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -132,11 +134,11 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#vis3', specVis1, {"actions": false}).then(function(result) {
+  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#vis4', specVis2, {"actions": false}).then(function(result) {
+  vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
