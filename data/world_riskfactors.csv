@@ -1,0 +1,953 @@
+﻿Location,cause,Year,deaths
+World,Alcohol use,1990,1800478.308
+World,Child stunting,1990,1001277.449
+World,Child wasting,1990,3365308.624
+World,Diet high in red meat,1990,12894.9367
+World,Diet high in sodium,1990,2222475.141
+World,Diet low  in nutsandseeds,1990,1409270.218
+World,Diet low in calcium,1990,103567.9417
+World,Diet low in fiber,1990,593669.5975
+World,Diet low in fruits,1990,1911940.632
+World,Diet low in legumes,1990,400632.0827
+World,Diet low in seafood omega3fattyacids,1990,992665.0779
+World,Diet low in vegetables,1990,1287803.477
+World,Diet low in whole grains,1990,2151022.727
+World,Discontinued breastfeeding,1990,34850.39553
+World,Drugs,1990,250864.6759
+World,High bloodpressure,1990,6884458.978
+World,High bodymass  index,1990,2159329.452
+World,High fasting plasma glucose,1990,3436970.409
+World,Iron deficiency,1990,125242.9483
+World,Low birth weight for gestation,1990,1976612.538
+World,Low bonemineraldensity,1990,152126.9382
+World,Low physicalactivity,1990,842665.5794
+World,No access to handwashing facility,1990,1239519.421
+World,Nonexclusive breastfeeding,1990,514102.3516
+World,Secondhand smoke,1990,1247230.879
+World,Smoking,1990,5681577.793
+World,Unsafe sanitation,1990,1638021.199
+World,Unsafe sex,1990,461671.8476
+World,Unsafe watersource,1990,2111659.077
+World,VitaminA deficiency,1990,986994.9962
+World,Zinc deficiency,1990,142313.1174
+World,Air Pollution,1990,4693071.312
+World,Indoor Air Pollution,1990,2708904.82
+World,Outdoor Air Pollution,1990,2143845.13
+World,Alcohol use,1991,1864042.538
+World,Child stunting,1991,975802.7091
+World,Child wasting,1991,3296648.253
+World,Diet high in red meat,1991,13077.86707
+World,Diet high in sodium,1991,2252610.545
+World,Diet low  in nutsandseeds,1991,1429384.206
+World,Diet low in calcium,1991,106215.0685
+World,Diet low in fiber,1991,602587.3057
+World,Diet low in fruits,1991,1938226.492
+World,Diet low in legumes,1991,406915.6255
+World,Diet low in seafood omega3fattyacids,1991,1007262.171
+World,Diet low in vegetables,1991,1300099.19
+World,Diet low in whole grains,1991,2185116.265
+World,Discontinued breastfeeding,1991,33853.6162
+World,Drugs,1991,267682.9469
+World,High bloodpressure,1991,6988580.174
+World,High bodymass  index,1991,2222986.643
+World,High fasting plasma glucose,1991,3508798.395
+World,Iron deficiency,1991,123752.2323
+World,Low birth weight for gestation,1991,1960013.069
+World,Low bonemineraldensity,1991,155500.3615
+World,Low physicalactivity,1991,853210.7577
+World,No access to handwashing facility,1991,1230318.626
+World,Nonexclusive breastfeeding,1991,502180.0259
+World,Secondhand smoke,1991,1251918.229
+World,Smoking,1991,5769043.287
+World,Unsafe sanitation,1991,1622958.94
+World,Unsafe sex,1991,534031.9754
+World,Unsafe watersource,1991,2095066.505
+World,VitaminA deficiency,1991,971721.1216
+World,Zinc deficiency,1991,136935.2345
+World,Air Pollution,1991,4720094.144
+World,Indoor Air Pollution,1991,2677805.722
+World,Outdoor Air Pollution,1991,2204256.45
+World,Alcohol use,1992,1939783.304
+World,Child stunting,1992,946360.0447
+World,Child wasting,1992,3203517.655
+World,Diet high in red meat,1992,13227.11576
+World,Diet high in sodium,1992,2292060.318
+World,Diet low  in nutsandseeds,1992,1458515.367
+World,Diet low in calcium,1992,108972.1636
+World,Diet low in fiber,1992,615631.9994
+World,Diet low in fruits,1992,1977387.321
+World,Diet low in legumes,1992,416920.0633
+World,Diet low in seafood omega3fattyacids,1992,1027648.369
+World,Diet low in vegetables,1992,1321951.036
+World,Diet low in whole grains,1992,2234234.521
+World,Discontinued breastfeeding,1992,32221.54775
+World,Drugs,1992,287034.8138
+World,High bloodpressure,1992,7115388.804
+World,High bodymass  index,1992,2303362.649
+World,High fasting plasma glucose,1992,3597104.065
+World,Iron deficiency,1992,124721.5959
+World,Low birth weight for gestation,1992,1941448.918
+World,Low bonemineraldensity,1992,159199.6344
+World,Low physicalactivity,1992,867723.8859
+World,No access to handwashing facility,1992,1209423.879
+World,Nonexclusive breastfeeding,1992,481844.5346
+World,Secondhand smoke,1992,1255581.16
+World,Smoking,1992,5869243.876
+World,Unsafe sanitation,1992,1588275.164
+World,Unsafe sex,1992,618562.1743
+World,Unsafe watersource,1992,2053362.286
+World,VitaminA deficiency,1992,950555.6553
+World,Zinc deficiency,1992,131265.5078
+World,Air Pollution,1992,4745836.577
+World,Indoor Air Pollution,1992,2648544.39
+World,Outdoor Air Pollution,1992,2260754.7
+World,Alcohol use,1993,2025045.603
+World,Child stunting,1993,918946.6391
+World,Child wasting,1993,3115719.489
+World,Diet high in red meat,1993,13551.58091
+World,Diet high in sodium,1993,2315164.71
+World,Diet low  in nutsandseeds,1993,1508398.818
+World,Diet low in calcium,1993,112389.9034
+World,Diet low in fiber,1993,636351.9274
+World,Diet low in fruits,1993,2037634.449
+World,Diet low in legumes,1993,436911.5928
+World,Diet low in seafood omega3fattyacids,1993,1060458.917
+World,Diet low in vegetables,1993,1357003.535
+World,Diet low in whole grains,1993,2312937.055
+World,Discontinued breastfeeding,1993,30647.96698
+World,Drugs,1993,306575.9508
+World,High bloodpressure,1993,7329202.966
+World,High bodymass  index,1993,2428019.231
+World,High fasting plasma glucose,1993,3721781.68
+World,Iron deficiency,1993,121526.6645
+World,Low birth weight for gestation,1993,1916294.891
+World,Low bonemineraldensity,1993,163634.9343
+World,Low physicalactivity,1993,897760.8372
+World,No access to handwashing facility,1993,1188248.169
+World,Nonexclusive breastfeeding,1993,462904.133
+World,Secondhand smoke,1993,1260815.712
+World,Smoking,1993,6023154.99
+World,Unsafe sanitation,1993,1553936.146
+World,Unsafe sex,1993,709085.8358
+World,Unsafe watersource,1993,2013224.699
+World,VitaminA deficiency,1993,931671.8768
+World,Zinc deficiency,1993,126413.9982
+World,Air Pollution,1993,4768144.772
+World,Indoor Air Pollution,1993,2604092.494
+World,Outdoor Air Pollution,1993,2327997.81
+World,Alcohol use,1994,2097212.994
+World,Child stunting,1994,894085.2536
+World,Child wasting,1994,3039123.021
+World,Diet high in red meat,1994,13688.49021
+World,Diet high in sodium,1994,2319321.178
+World,Diet low  in nutsandseeds,1994,1538154.126
+World,Diet low in calcium,1994,114832.5272
+World,Diet low in fiber,1994,649962.5083
+World,Diet low in fruits,1994,2081888.293
+World,Diet low in legumes,1994,449216.1517
+World,Diet low in seafood omega3fattyacids,1994,1083547.164
+World,Diet low in vegetables,1994,1377999.282
+World,Diet low in whole grains,1994,2366171.187
+World,Discontinued breastfeeding,1994,29178.11928
+World,Drugs,1994,325420.8238
+World,High bloodpressure,1994,7469316.4
+World,High bodymass  index,1994,2524269.751
+World,High fasting plasma glucose,1994,3815828.882
+World,Iron deficiency,1994,119260.7228
+World,Low birth weight for gestation,1994,1881590.107
+World,Low bonemineraldensity,1994,167304.1564
+World,Low physicalactivity,1994,914048.173
+World,No access to handwashing facility,1994,1167209.347
+World,Nonexclusive breastfeeding,1994,445422.5075
+World,Secondhand smoke,1994,1260994.206
+World,Smoking,1994,6115916.982
+World,Unsafe sanitation,1994,1519967.074
+World,Unsafe sex,1994,805607.2523
+World,Unsafe watersource,1994,1973406.044
+World,VitaminA deficiency,1994,914227.2521
+World,Zinc deficiency,1994,122378.8743
+World,Air Pollution,1994,4773589.913
+World,Indoor Air Pollution,1994,2563321.579
+World,Outdoor Air Pollution,1994,2374627.04
+World,Alcohol use,1995,2144887.033
+World,Child stunting,1995,867648.5004
+World,Child wasting,1995,3031073.947
+World,Diet high in red meat,1995,13851.86098
+World,Diet high in sodium,1995,2329576.544
+World,Diet low  in nutsandseeds,1995,1548656.151
+World,Diet low in calcium,1995,117021.9382
+World,Diet low in fiber,1995,655456.8087
+World,Diet low in fruits,1995,2099364.92
+World,Diet low in legumes,1995,451432.5448
+World,Diet low in seafood omega3fattyacids,1995,1092308.435
+World,Diet low in vegetables,1995,1383603.561
+World,Diet low in whole grains,1995,2388733.571
+World,Discontinued breastfeeding,1995,27731.3201
+World,Drugs,1995,342556.7162
+World,High bloodpressure,1995,7537548.158
+World,High bodymass  index,1995,2586034.531
+World,High fasting plasma glucose,1995,3886724.12
+World,Iron deficiency,1995,118014.5763
+World,Low birth weight for gestation,1995,1852109.618
+World,Low bonemineraldensity,1995,170745.4745
+World,Low physicalactivity,1995,919262.5561
+World,No access to handwashing facility,1995,1144503.939
+World,Nonexclusive breastfeeding,1995,425889.4485
+World,Secondhand smoke,1995,1253577.032
+World,Smoking,1995,6170797.452
+World,Unsafe sanitation,1995,1484244.305
+World,Unsafe sex,1995,903917.1408
+World,Unsafe watersource,1995,1931065.508
+World,VitaminA deficiency,1995,890661.5937
+World,Zinc deficiency,1995,118112.9492
+World,Air Pollution,1995,4755628.878
+World,Indoor Air Pollution,1995,2521547.506
+World,Outdoor Air Pollution,1995,2397545.17
+World,Alcohol use,1996,2168153.976
+World,Child stunting,1996,838444.52
+World,Child wasting,1996,2924737.715
+World,Diet high in red meat,1996,13909.25571
+World,Diet high in sodium,1996,2325141.334
+World,Diet low  in nutsandseeds,1996,1547947.559
+World,Diet low in calcium,1996,118591.7415
+World,Diet low in fiber,1996,655942.1525
+World,Diet low in fruits,1996,2104880.576
+World,Diet low in legumes,1996,447422.1158
+World,Diet low in seafood omega3fattyacids,1996,1094676.828
+World,Diet low in vegetables,1996,1381912.698
+World,Diet low in whole grains,1996,2394579.799
+World,Discontinued breastfeeding,1996,26123.42414
+World,Drugs,1996,353115.8404
+World,High bloodpressure,1996,7568246.535
+World,High bodymass  index,1996,2632155.462
+World,High fasting plasma glucose,1996,3948468.265
+World,Iron deficiency,1996,116431.4183
+World,Low birth weight for gestation,1996,1816486.809
+World,Low bonemineraldensity,1996,174112.7651
+World,Low physicalactivity,1996,917587.2266
+World,No access to handwashing facility,1996,1116519.757
+World,Nonexclusive breastfeeding,1996,405322.2782
+World,Secondhand smoke,1996,1241763.527
+World,Smoking,1996,6180919.478
+World,Unsafe sanitation,1996,1440235.417
+World,Unsafe sex,1996,992796.206
+World,Unsafe watersource,1996,1877778.83
+World,VitaminA deficiency,1996,862841.4946
+World,Zinc deficiency,1996,111752.8662
+World,Air Pollution,1996,4749140.8
+World,Indoor Air Pollution,1996,2477283.308
+World,Outdoor Air Pollution,1996,2435198.13
+World,Alcohol use,1997,2199073.322
+World,Child stunting,1997,808508.6873
+World,Child wasting,1997,2823961.948
+World,Diet high in red meat,1997,13955.93368
+World,Diet high in sodium,1997,2321722.478
+World,Diet low  in nutsandseeds,1997,1554595.104
+World,Diet low in calcium,1997,120290.4821
+World,Diet low in fiber,1997,658604.4094
+World,Diet low in fruits,1997,2118314.292
+World,Diet low in legumes,1997,443554.5431
+World,Diet low in seafood omega3fattyacids,1997,1102405.601
+World,Diet low in vegetables,1997,1384802.944
+World,Diet low in whole grains,1997,2409551.196
+World,Discontinued breastfeeding,1997,24776.91639
+World,Drugs,1997,361142.9969
+World,High bloodpressure,1997,7626124.418
+World,High bodymass  index,1997,2688066.122
+World,High fasting plasma glucose,1997,4033219.042
+World,Iron deficiency,1997,117106.431
+World,Low birth weight for gestation,1997,1796149.096
+World,Low bonemineraldensity,1997,178978.3957
+World,Low physicalactivity,1997,919434.1286
+World,No access to handwashing facility,1997,1096678.272
+World,Nonexclusive breastfeeding,1997,386961.367
+World,Secondhand smoke,1997,1232722.03
+World,Smoking,1997,6208120.345
+World,Unsafe sanitation,1997,1409441.51
+World,Unsafe sex,1997,1076179.048
+World,Unsafe watersource,1997,1840394.52
+World,VitaminA deficiency,1997,830357.7959
+World,Zinc deficiency,1997,106098.0068
+World,Air Pollution,1997,4766895.258
+World,Indoor Air Pollution,1997,2456653.199
+World,Outdoor Air Pollution,1997,2474685.61
+World,Alcohol use,1998,2236838.89
+World,Child stunting,1998,779021.0352
+World,Child wasting,1998,2727432.701
+World,Diet high in red meat,1998,14153.74091
+World,Diet high in sodium,1998,2326097.78
+World,Diet low  in nutsandseeds,1998,1559530.612
+World,Diet low in calcium,1998,122564.5556
+World,Diet low in fiber,1998,661045.8317
+World,Diet low in fruits,1998,2129233.963
+World,Diet low in legumes,1998,442196.3334
+World,Diet low in seafood omega3fattyacids,1998,1105662.444
+World,Diet low in vegetables,1998,1384808.083
+World,Diet low in whole grains,1998,2424625.841
+World,Discontinued breastfeeding,1998,23887.01349
+World,Drugs,1998,372086.7041
+World,High bloodpressure,1998,7688173.701
+World,High bodymass  index,1998,2754377.071
+World,High fasting plasma glucose,1998,4117958.719
+World,Iron deficiency,1998,117451.8743
+World,Low birth weight for gestation,1998,1775232.115
+World,Low bonemineraldensity,1998,183587.7053
+World,Low physicalactivity,1998,924224.2793
+World,No access to handwashing facility,1998,1077689.327
+World,Nonexclusive breastfeeding,1998,372047.0743
+World,Secondhand smoke,1998,1218980.197
+World,Smoking,1998,6244660.28
+World,Unsafe sanitation,1998,1382608.295
+World,Unsafe sex,1998,1175637.032
+World,Unsafe watersource,1998,1808119.007
+World,VitaminA deficiency,1998,799376.267
+World,Zinc deficiency,1998,101097.6016
+World,Air Pollution,1998,4760687.913
+World,Indoor Air Pollution,1998,2419886.895
+World,Outdoor Air Pollution,1998,2505346.22
+World,Alcohol use,1999,2292873.113
+World,Child stunting,1999,746562.036
+World,Child wasting,1999,2625624.006
+World,Diet high in red meat,1999,14455.15181
+World,Diet high in sodium,1999,2346825.038
+World,Diet low  in nutsandseeds,1999,1583488.275
+World,Diet low in calcium,1999,125328.5643
+World,Diet low in fiber,1999,672538.1696
+World,Diet low in fruits,1999,2164057.653
+World,Diet low in legumes,1999,452046.6142
+World,Diet low in seafood omega3fattyacids,1999,1123007.798
+World,Diet low in vegetables,1999,1397941.517
+World,Diet low in whole grains,1999,2467252.566
+World,Discontinued breastfeeding,1999,23068.35938
+World,Drugs,1999,386344.769
+World,High bloodpressure,1999,7817683.344
+World,High bodymass  index,1999,2860457.523
+World,High fasting plasma glucose,1999,4224079.759
+World,Iron deficiency,1999,117171.3342
+World,Low birth weight for gestation,1999,1744953.726
+World,Low bonemineraldensity,1999,188111.9977
+World,Low physicalactivity,1999,940794.6666
+World,No access to handwashing facility,1999,1052547.258
+World,Nonexclusive breastfeeding,1999,357098.3394
+World,Secondhand smoke,1999,1204890.482
+World,Smoking,1999,6298194.798
+World,Unsafe sanitation,1999,1347957.663
+World,Unsafe sex,1999,1287095.166
+World,Unsafe watersource,1999,1766645.451
+World,VitaminA deficiency,1999,762159.4714
+World,Zinc deficiency,1999,95884.33358
+World,Air Pollution,1999,4726253.31
+World,Indoor Air Pollution,1999,2357044.544
+World,Outdoor Air Pollution,1999,2529888.13
+World,Alcohol use,2000,2349425.559
+World,Child stunting,2000,713553.2893
+World,Child wasting,2000,2528264.401
+World,Diet high in red meat,2000,14603.25673
+World,Diet high in sodium,2000,2373206.335
+World,Diet low  in nutsandseeds,2000,1606580.666
+World,Diet low in calcium,2000,127264.3301
+World,Diet low in fiber,2000,682818.1194
+World,Diet low in fruits,2000,2196322.754
+World,Diet low in legumes,2000,459620.2973
+World,Diet low in seafood omega3fattyacids,2000,1139759.58
+World,Diet low in vegetables,2000,1409938.272
+World,Diet low in whole grains,2000,2505478.865
+World,Discontinued breastfeeding,2000,22083.23036
+World,Drugs,2000,399074.8586
+World,High bloodpressure,2000,7932073.943
+World,High bodymass  index,2000,2941771.575
+World,High fasting plasma glucose,2000,4324898.2
+World,Iron deficiency,2000,115979.0638
+World,Low birth weight for gestation,2000,1713464.777
+World,Low bonemineraldensity,2000,193169.8901
+World,Low physicalactivity,2000,953743.6942
+World,No access to handwashing facility,2000,1030042.304
+World,Nonexclusive breastfeeding,2000,343019.1682
+World,Secondhand smoke,2000,1195523.541
+World,Smoking,2000,6351837.677
+World,Unsafe sanitation,2000,1315192.214
+World,Unsafe sex,2000,1392956.936
+World,Unsafe watersource,2000,1727905.469
+World,VitaminA deficiency,2000,724028.1526
+World,Zinc deficiency,2000,91046.5756
+World,Air Pollution,2000,4709245.489
+World,Indoor Air Pollution,2000,2314854.156
+World,Outdoor Air Pollution,2000,2552798.2
+World,Alcohol use,2001,2385905.324
+World,Child stunting,2001,676204.3307
+World,Child wasting,2001,2415167.658
+World,Diet high in red meat,2001,14862.56522
+World,Diet high in sodium,2001,2388334.971
+World,Diet low  in nutsandseeds,2001,1625938.683
+World,Diet low in calcium,2001,129431.4698
+World,Diet low in fiber,2001,690226.3198
+World,Diet low in fruits,2001,2213864.466
+World,Diet low in legumes,2001,464378.2287
+World,Diet low in seafood omega3fattyacids,2001,1152694.201
+World,Diet low in vegetables,2001,1412483.952
+World,Diet low in whole grains,2001,2533247.808
+World,Discontinued breastfeeding,2001,20739.48575
+World,Drugs,2001,405362.8774
+World,High bloodpressure,2001,8029451.543
+World,High bodymass  index,2001,3015683.059
+World,High fasting plasma glucose,2001,4438142.543
+World,Iron deficiency,2001,111445.9278
+World,Low birth weight for gestation,2001,1677551.591
+World,Low bonemineraldensity,2001,198968.4113
+World,Low physicalactivity,2001,967277.0082
+World,No access to handwashing facility,2001,1003459.771
+World,Nonexclusive breastfeeding,2001,328012.1893
+World,Secondhand smoke,2001,1183889.971
+World,Smoking,2001,6382733.902
+World,Unsafe sanitation,2001,1277426.292
+World,Unsafe sex,2001,1493488.865
+World,Unsafe watersource,2001,1682357.015
+World,VitaminA deficiency,2001,681755.0791
+World,Zinc deficiency,2001,84464.0465
+World,Air Pollution,2001,4702796.73
+World,Indoor Air Pollution,2001,2262796.548
+World,Outdoor Air Pollution,2001,2596355.38
+World,Alcohol use,2002,2443612.781
+World,Child stunting,2002,638475.9957
+World,Child wasting,2002,2304567.114
+World,Diet high in red meat,2002,15230.33154
+World,Diet high in sodium,2002,2429819.844
+World,Diet low  in nutsandseeds,2002,1660048.922
+World,Diet low in calcium,2002,132519.0979
+World,Diet low in fiber,2002,703813.0958
+World,Diet low in fruits,2002,2246956.39
+World,Diet low in legumes,2002,474487.0237
+World,Diet low in seafood omega3fattyacids,2002,1175485.537
+World,Diet low in vegetables,2002,1425944.728
+World,Diet low in whole grains,2002,2580824.656
+World,Discontinued breastfeeding,2002,19504.70007
+World,Drugs,2002,414358.0392
+World,High bloodpressure,2002,8188714.686
+World,High bodymass  index,2002,3121412.686
+World,High fasting plasma glucose,2002,4611053.543
+World,Iron deficiency,2002,106458.759
+World,Low birth weight for gestation,2002,1642907.983
+World,Low bonemineraldensity,2002,207174.9366
+World,Low physicalactivity,2002,989123.6477
+World,No access to handwashing facility,2002,976805.5305
+World,Nonexclusive breastfeeding,2002,312995.3409
+World,Secondhand smoke,2002,1178246.291
+World,Smoking,2002,6444008.309
+World,Unsafe sanitation,2002,1240534.972
+World,Unsafe sex,2002,1586150.019
+World,Unsafe watersource,2002,1638128.167
+World,VitaminA deficiency,2002,636888.4349
+World,Zinc deficiency,2002,78781.11715
+World,Air Pollution,2002,4716666.14
+World,Indoor Air Pollution,2002,2218646.043
+World,Outdoor Air Pollution,2002,2653391.61
+World,Alcohol use,2003,2494699.766
+World,Child stunting,2003,599482.4313
+World,Child wasting,2003,2118224.642
+World,Diet high in red meat,2003,15604.57529
+World,Diet high in sodium,2003,2479178.881
+World,Diet low  in nutsandseeds,2003,1689864.146
+World,Diet low in calcium,2003,135708.8132
+World,Diet low in fiber,2003,715879.5263
+World,Diet low in fruits,2003,2271494.393
+World,Diet low in legumes,2003,482644.6025
+World,Diet low in seafood omega3fattyacids,2003,1194261.488
+World,Diet low in vegetables,2003,1433755.018
+World,Diet low in whole grains,2003,2618813.149
+World,Discontinued breastfeeding,2003,18449.95506
+World,Drugs,2003,423709.2334
+World,High bloodpressure,2003,8325151.221
+World,High bodymass  index,2003,3217542.881
+World,High fasting plasma glucose,2003,4787898.524
+World,Iron deficiency,2003,101206.9103
+World,Low birth weight for gestation,2003,1614537.797
+World,Low bonemineraldensity,2003,216598.2116
+World,Low physicalactivity,2003,1009107.006
+World,No access to handwashing facility,2003,951759.7839
+World,Nonexclusive breastfeeding,2003,299066.9771
+World,Secondhand smoke,2003,1171247.834
+World,Smoking,2003,6500340.707
+World,Unsafe sanitation,2003,1205163.982
+World,Unsafe sex,2003,1667507.56
+World,Unsafe watersource,2003,1596385.848
+World,VitaminA deficiency,2003,589182.3923
+World,Zinc deficiency,2003,74312.88099
+World,Air Pollution,2003,4725277.204
+World,Indoor Air Pollution,2003,2172350.595
+World,Outdoor Air Pollution,2003,2706991.96
+World,Alcohol use,2004,2518388.904
+World,Child stunting,2004,563236.8118
+World,Child wasting,2004,2020585.348
+World,Diet high in red meat,2004,15731.65105
+World,Diet high in sodium,2004,2501628.107
+World,Diet low  in nutsandseeds,2004,1689426.421
+World,Diet low in calcium,2004,137379.5747
+World,Diet low in fiber,2004,716651.0146
+World,Diet low in fruits,2004,2264922.643
+World,Diet low in legumes,2004,482412.6906
+World,Diet low in seafood omega3fattyacids,2004,1192369.288
+World,Diet low in vegetables,2004,1417363.336
+World,Diet low in whole grains,2004,2614228.7
+World,Discontinued breastfeeding,2004,17610.22055
+World,Drugs,2004,433106.5906
+World,High bloodpressure,2004,8321914.696
+World,High bodymass  index,2004,3262967.782
+World,High fasting plasma glucose,2004,4880129.558
+World,Iron deficiency,2004,97904.38054
+World,Low birth weight for gestation,2004,1579137.427
+World,Low bonemineraldensity,2004,222985.6269
+World,Low physicalactivity,2004,1009221.106
+World,No access to handwashing facility,2004,930329.4991
+World,Nonexclusive breastfeeding,2004,286549.6128
+World,Secondhand smoke,2004,1152014.441
+World,Smoking,2004,6450954.751
+World,Unsafe sanitation,2004,1174027.895
+World,Unsafe sex,2004,1725533.068
+World,Unsafe watersource,2004,1561987.644
+World,VitaminA deficiency,2004,545803.4973
+World,Zinc deficiency,2004,70531.85562
+World,Air Pollution,2004,4673825.644
+World,Indoor Air Pollution,2004,2109307.172
+World,Outdoor Air Pollution,2004,2714489.07
+World,Alcohol use,2005,2562559.799
+World,Child stunting,2005,529128.9553
+World,Child wasting,2005,1929828.236
+World,Diet high in red meat,2005,16104.28476
+World,Diet high in sodium,2005,2519956.305
+World,Diet low  in nutsandseeds,2005,1720012.817
+World,Diet low in calcium,2005,140308.297
+World,Diet low in fiber,2005,728657.2046
+World,Diet low in fruits,2005,2271774.205
+World,Diet low in legumes,2005,489662.8976
+World,Diet low in seafood omega3fattyacids,2005,1210534.45
+World,Diet low in vegetables,2005,1418079.128
+World,Diet low in whole grains,2005,2643503.717
+World,Discontinued breastfeeding,2005,16819.4056
+World,Drugs,2005,447740.285
+World,High bloodpressure,2005,8440626.756
+World,High bodymass  index,2005,3357385.922
+World,High fasting plasma glucose,2005,5016361.945
+World,Iron deficiency,2005,96120.01178
+World,Low birth weight for gestation,2005,1544999.694
+World,Low bonemineraldensity,2005,231654.2463
+World,Low physicalactivity,2005,1026950.571
+World,No access to handwashing facility,2005,914399.9049
+World,Nonexclusive breastfeeding,2005,274539.5928
+World,Secondhand smoke,2005,1141569.517
+World,Smoking,2005,6457486.751
+World,Unsafe sanitation,2005,1149262.178
+World,Unsafe sex,2005,1762207.25
+World,Unsafe watersource,2005,1536826.824
+World,VitaminA deficiency,2005,507993.2815
+World,Zinc deficiency,2005,67096.33842
+World,Air Pollution,2005,4650017.131
+World,Indoor Air Pollution,2005,2057468.406
+World,Outdoor Air Pollution,2005,2738822.82
+World,Alcohol use,2006,2544467.646
+World,Child stunting,2006,492990.4948
+World,Child wasting,2006,1850101.089
+World,Diet high in red meat,2006,16318.71523
+World,Diet high in sodium,2006,2499281.342
+World,Diet low  in nutsandseeds,2006,1718809.429
+World,Diet low in calcium,2006,142061.3753
+World,Diet low in fiber,2006,728426.3249
+World,Diet low in fruits,2006,2232136.375
+World,Diet low in legumes,2006,481206.5112
+World,Diet low in seafood omega3fattyacids,2006,1208477.603
+World,Diet low in vegetables,2006,1395176.563
+World,Diet low in whole grains,2006,2617239.072
+World,Discontinued breastfeeding,2006,16281.51882
+World,Drugs,2006,452485.8341
+World,High bloodpressure,2006,8416624.125
+World,High bodymass  index,2006,3388547.812
+World,High fasting plasma glucose,2006,5056877.019
+World,Iron deficiency,2006,92610.66182
+World,Low birth weight for gestation,2006,1510726.59
+World,Low bonemineraldensity,2006,237894.7652
+World,Low physicalactivity,2006,1023921.036
+World,No access to handwashing facility,2006,905364.3651
+World,Nonexclusive breastfeeding,2006,266156.299
+World,Secondhand smoke,2006,1117579.421
+World,Smoking,2006,6375847.554
+World,Unsafe sanitation,2006,1132528.956
+World,Unsafe sex,2006,1771140.671
+World,Unsafe watersource,2006,1523674.684
+World,VitaminA deficiency,2006,470133.176
+World,Zinc deficiency,2006,63539.21875
+World,Air Pollution,2006,4615828.129
+World,Indoor Air Pollution,2006,2002416.138
+World,Outdoor Air Pollution,2006,2756217.38
+World,Alcohol use,2007,2562325.476
+World,Child stunting,2007,458315.8072
+World,Child wasting,2007,1769622.401
+World,Diet high in red meat,2007,16835.50678
+World,Diet high in sodium,2007,2524216.531
+World,Diet low  in nutsandseeds,2007,1737232.27
+World,Diet low in calcium,2007,145000.4821
+World,Diet low in fiber,2007,736746.6979
+World,Diet low in fruits,2007,2224065.518
+World,Diet low in legumes,2007,480959.0332
+World,Diet low in seafood omega3fattyacids,2007,1220187.894
+World,Diet low in vegetables,2007,1388276.29
+World,Diet low in whole grains,2007,2627876.82
+World,Discontinued breastfeeding,2007,15825.76529
+World,Drugs,2007,458612.3074
+World,High bloodpressure,2007,8503613.801
+World,High bodymass  index,2007,3465994.585
+World,High fasting plasma glucose,2007,5135848.389
+World,Iron deficiency,2007,88885.35514
+World,Low birth weight for gestation,2007,1476116.031
+World,Low bonemineraldensity,2007,244892.3402
+World,Low physicalactivity,2007,1034939.776
+World,No access to handwashing facility,2007,891831.9068
+World,Nonexclusive breastfeeding,2007,255904.2064
+World,Secondhand smoke,2007,1107576.361
+World,Smoking,2007,6383033.915
+World,Unsafe sanitation,2007,1109838.767
+World,Unsafe sex,2007,1749320.792
+World,Unsafe watersource,2007,1503844.158
+World,VitaminA deficiency,2007,437355.9554
+World,Zinc deficiency,2007,59974.57114
+World,Air Pollution,2007,4626412.075
+World,Indoor Air Pollution,2007,1961085.424
+World,Outdoor Air Pollution,2007,2807283.47
+World,Alcohol use,2008,2621392.287
+World,Child stunting,2008,429140.2898
+World,Child wasting,2008,1698621.025
+World,Diet high in red meat,2008,17458.01965
+World,Diet high in sodium,2008,2587152.255
+World,Diet low  in nutsandseeds,2008,1775415.159
+World,Diet low in calcium,2008,148958.0062
+World,Diet low in fiber,2008,752751.2164
+World,Diet low in fruits,2008,2242840.108
+World,Diet low in legumes,2008,487495.6237
+World,Diet low in seafood omega3fattyacids,2008,1244783.213
+World,Diet low in vegetables,2008,1397585.14
+World,Diet low in whole grains,2008,2670700.495
+World,Discontinued breastfeeding,2008,15725.66256
+World,Drugs,2008,467883.4028
+World,High bloodpressure,2008,8699254.174
+World,High bodymass  index,2008,3586561.415
+World,High fasting plasma glucose,2008,5258887.049
+World,Iron deficiency,2008,85675.91249
+World,Low birth weight for gestation,2008,1444251.783
+World,Low bonemineraldensity,2008,252302.2091
+World,Low physicalactivity,2008,1059395.939
+World,No access to handwashing facility,2008,879853.2327
+World,Nonexclusive breastfeeding,2008,247528.848
+World,Secondhand smoke,2008,1110817.943
+World,Smoking,2008,6447767.153
+World,Unsafe sanitation,2008,1089920.305
+World,Unsafe sex,2008,1703043.841
+World,Unsafe watersource,2008,1491461.978
+World,VitaminA deficiency,2008,414916.7751
+World,Zinc deficiency,2008,56797.09372
+World,Air Pollution,2008,4671511.435
+World,Indoor Air Pollution,2008,1927176.022
+World,Outdoor Air Pollution,2008,2887186.83
+World,Alcohol use,2009,2628366.75
+World,Child stunting,2009,404687.5141
+World,Child wasting,2009,1640429.923
+World,Diet high in red meat,2009,17985.53277
+World,Diet high in sodium,2009,2658035.345
+World,Diet low  in nutsandseeds,2009,1800950.567
+World,Diet low in calcium,2009,152579.7589
+World,Diet low in fiber,2009,765319.7365
+World,Diet low in fruits,2009,2257993.063
+World,Diet low in legumes,2009,488713.1867
+World,Diet low in seafood omega3fattyacids,2009,1265076.327
+World,Diet low in vegetables,2009,1402937.819
+World,Diet low in whole grains,2009,2700577.093
+World,Discontinued breastfeeding,2009,15843.25268
+World,Drugs,2009,474179.7575
+World,High bloodpressure,2009,8863423.503
+World,High bodymass  index,2009,3688360.783
+World,High fasting plasma glucose,2009,5361133.733
+World,Iron deficiency,2009,83044.11029
+World,Low birth weight for gestation,2009,1413576.316
+World,Low bonemineraldensity,2009,258066.0505
+World,Low physicalactivity,2009,1077823.426
+World,No access to handwashing facility,2009,873667.455
+World,Nonexclusive breastfeeding,2009,240509.8515
+World,Secondhand smoke,2009,1115495.907
+World,Smoking,2009,6495294.182
+World,Unsafe sanitation,2009,1077637.575
+World,Unsafe sex,2009,1650365.441
+World,Unsafe watersource,2009,1489789.499
+World,VitaminA deficiency,2009,397237.1968
+World,Zinc deficiency,2009,53849.09454
+World,Air Pollution,2009,4713605.404
+World,Indoor Air Pollution,2009,1897357.343
+World,Outdoor Air Pollution,2009,2960814.94
+World,Alcohol use,2010,2677117.845
+World,Child stunting,2010,384288.2486
+World,Child wasting,2010,1594289.594
+World,Diet high in red meat,2010,18532.38916
+World,Diet high in sodium,2010,2742750.764
+World,Diet low  in nutsandseeds,2010,1842134.362
+World,Diet low in calcium,2010,156463.342
+World,Diet low in fiber,2010,782405.163
+World,Diet low in fruits,2010,2281890.694
+World,Diet low in legumes,2010,495614.6516
+World,Diet low in seafood omega3fattyacids,2010,1293657.474
+World,Diet low in vegetables,2010,1414257.647
+World,Diet low in whole grains,2010,2749581.168
+World,Discontinued breastfeeding,2010,15878.10448
+World,Drugs,2010,481085.006
+World,High bloodpressure,2010,9081676.32
+World,High bodymass  index,2010,3801353.307
+World,High fasting plasma glucose,2010,5480476.47
+World,Iron deficiency,2010,80614.05045
+World,Low birth weight for gestation,2010,1382911.187
+World,Low bonemineraldensity,2010,264904.3096
+World,Low physicalactivity,2010,1103728.162
+World,No access to handwashing facility,2010,865051.6817
+World,Nonexclusive breastfeeding,2010,233039.1549
+World,Secondhand smoke,2010,1126799.656
+World,Smoking,2010,6569515.346
+World,Unsafe sanitation,2010,1061903.157
+World,Unsafe sex,2010,1566757.976
+World,Unsafe watersource,2010,1483731.657
+World,VitaminA deficiency,2010,384558.2666
+World,Zinc deficiency,2010,50821.18169
+World,Air Pollution,2010,4761102.293
+World,Indoor Air Pollution,2010,1869568.125
+World,Outdoor Air Pollution,2010,3037813.35
+World,Alcohol use,2011,2652024.866
+World,Child stunting,2011,360145.5418
+World,Child wasting,2011,1512021.885
+World,Diet high in red meat,2011,19198.05187
+World,Diet high in sodium,2011,2804422.156
+World,Diet low  in nutsandseeds,2011,1870725.911
+World,Diet low in calcium,2011,160055.855
+World,Diet low in fiber,2011,794510.3523
+World,Diet low in fruits,2011,2288630.162
+World,Diet low in legumes,2011,497015.7137
+World,Diet low in seafood omega3fattyacids,2011,1314143.784
+World,Diet low in vegetables,2011,1414920.119
+World,Diet low in whole grains,2011,2782609.11
+World,Discontinued breastfeeding,2011,14953.00717
+World,Drugs,2011,488733.8298
+World,High bloodpressure,2011,9239375.173
+World,High bodymass  index,2011,3895077.956
+World,High fasting plasma glucose,2011,5597446.696
+World,Iron deficiency,2011,77295.45271
+World,Low birth weight for gestation,2011,1350547.829
+World,Low bonemineraldensity,2011,272535.5649
+World,Low physicalactivity,2011,1121225.521
+World,No access to handwashing facility,2011,835307.5214
+World,Nonexclusive breastfeeding,2011,222655.1329
+World,Secondhand smoke,2011,1134562.113
+World,Smoking,2011,6615962.057
+World,Unsafe sanitation,2011,1012279.945
+World,Unsafe sex,2011,1477966.38
+World,Unsafe watersource,2011,1431184.379
+World,VitaminA deficiency,2011,363747.3772
+World,Zinc deficiency,2011,46316.47302
+World,Air Pollution,2011,4804868.946
+World,Indoor Air Pollution,2011,1832880.494
+World,Outdoor Air Pollution,2011,3119026.79
+World,Alcohol use,2012,2667932.256
+World,Child stunting,2012,335444.0246
+World,Child wasting,2012,1424618.771
+World,Diet high in red meat,2012,19923.70118
+World,Diet high in sodium,2012,2862382.063
+World,Diet low  in nutsandseeds,2012,1900384.951
+World,Diet low in calcium,2012,163472.1766
+World,Diet low in fiber,2012,805784.552
+World,Diet low in fruits,2012,2302320.209
+World,Diet low in legumes,2012,499666.3128
+World,Diet low in seafood omega3fattyacids,2012,1334954.497
+World,Diet low in vegetables,2012,1417228.16
+World,Diet low in whole grains,2012,2821442.405
+World,Discontinued breastfeeding,2012,14194.98613
+World,Drugs,2012,496855.4929
+World,High bloodpressure,2012,9410997.059
+World,High bodymass  index,2012,4010870.864
+World,High fasting plasma glucose,2012,5727642.572
+World,Iron deficiency,2012,72036.36214
+World,Low birth weight for gestation,2012,1316726.71
+World,Low bonemineraldensity,2012,280059.7436
+World,Low physicalactivity,2012,1139594.967
+World,No access to handwashing facility,2012,804331.6105
+World,Nonexclusive breastfeeding,2012,211430.0757
+World,Secondhand smoke,2012,1141945.31
+World,Smoking,2012,6663081.086
+World,Unsafe sanitation,2012,957813.2057
+World,Unsafe sex,2012,1386429.414
+World,Unsafe watersource,2012,1374545.908
+World,VitaminA deficiency,2012,340673.794
+World,Zinc deficiency,2012,42409.59173
+World,Air Pollution,2012,4770981.619
+World,Indoor Air Pollution,2012,1824696.213
+World,Outdoor Air Pollution,2012,3090711.98
+World,Alcohol use,2013,2673153.393
+World,Child stunting,2013,308770.176
+World,Child wasting,2013,1342889.805
+World,Diet high in red meat,2013,20635.44288
+World,Diet high in sodium,2013,2891087.524
+World,Diet low  in nutsandseeds,2013,1920514.031
+World,Diet low in calcium,2013,166585.7909
+World,Diet low in fiber,2013,813476.7677
+World,Diet low in fruits,2013,2302599.06
+World,Diet low in legumes,2013,501987.9852
+World,Diet low in seafood omega3fattyacids,2013,1347868.911
+World,Diet low in vegetables,2013,1413792.73
+World,Diet low in whole grains,2013,2845730.06
+World,Discontinued breastfeeding,2013,13357.84569
+World,Drugs,2013,508271.6435
+World,High bloodpressure,2013,9535296.958
+World,High bodymass  index,2013,4122520.196
+World,High fasting plasma glucose,2013,5842881.612
+World,Iron deficiency,2013,68297.25437
+World,Low birth weight for gestation,2013,1275473.959
+World,Low bonemineraldensity,2013,289020.4671
+World,Low physicalactivity,2013,1153171.055
+World,No access to handwashing facility,2013,773606.8081
+World,Nonexclusive breastfeeding,2013,199855.9254
+World,Secondhand smoke,2013,1144785.279
+World,Smoking,2013,6673225.404
+World,Unsafe sanitation,2013,902564.8107
+World,Unsafe sex,2013,1300372.899
+World,Unsafe watersource,2013,1322082.215
+World,VitaminA deficiency,2013,314737.6379
+World,Zinc deficiency,2013,38762.40842
+World,Air Pollution,2013,4767978.051
+World,Indoor Air Pollution,2013,1771869.513
+World,Outdoor Air Pollution,2013,3140220.85
+World,Alcohol use,2014,2706466.692
+World,Child stunting,2014,281796.0021
+World,Child wasting,2014,1261561.866
+World,Diet high in red meat,2014,21601.69743
+World,Diet high in sodium,2014,2972737.22
+World,Diet low  in nutsandseeds,2014,1949977.606
+World,Diet low in calcium,2014,171234.5731
+World,Diet low in fiber,2014,827283.8186
+World,Diet low in fruits,2014,2336607.284
+World,Diet low in legumes,2014,507971.3973
+World,Diet low in seafood omega3fattyacids,2014,1369464.835
+World,Diet low in vegetables,2014,1422744.269
+World,Diet low in whole grains,2014,2899395.997
+World,Discontinued breastfeeding,2014,12323.16812
+World,Drugs,2014,526924.9122
+World,High bloodpressure,2014,9756852.926
+World,High bodymass  index,2014,4272118.459
+World,High fasting plasma glucose,2014,6002241.778
+World,Iron deficiency,2014,65610.49187
+World,Low birth weight for gestation,2014,1233224.114
+World,Low bonemineraldensity,2014,299673.3874
+World,Low physicalactivity,2014,1176347.619
+World,No access to handwashing facility,2014,748144.0074
+World,Nonexclusive breastfeeding,2014,188371.9281
+World,Secondhand smoke,2014,1164110.806
+World,Smoking,2014,6764715.825
+World,Unsafe sanitation,2014,854076.1423
+World,Unsafe sex,2014,1216378.742
+World,Unsafe watersource,2014,1282539.799
+World,VitaminA deficiency,2014,287695.3971
+World,Zinc deficiency,2014,35503.52323
+World,Air Pollution,2014,4775123.184
+World,Indoor Air Pollution,2014,1744033.091
+World,Outdoor Air Pollution,2014,3176113.07
+World,Alcohol use,2015,2773307.329
+World,Child stunting,2015,259074.5413
+World,Child wasting,2015,1193359.088
+World,Diet high in red meat,2015,22847.93485
+World,Diet high in sodium,2015,3079919.689
+World,Diet low  in nutsandseeds,2015,2006782.211
+World,Diet low in calcium,2015,177124.9355
+World,Diet low in fiber,2015,850313.9958
+World,Diet low in fruits,2015,2388571.409
+World,Diet low in legumes,2015,523451.0215
+World,Diet low in seafood omega3fattyacids,2015,1408879.439
+World,Diet low in vegetables,2015,1445070.768
+World,Diet low in whole grains,2015,2983998.114
+World,Discontinued breastfeeding,2015,11281.73997
+World,Drugs,2015,549156.8439
+World,High bloodpressure,2015,10070692.4
+World,High bodymass  index,2015,4462996.032
+World,High fasting plasma glucose,2015,6218325.333
+World,Iron deficiency,2015,62638.53339
+World,Low birth weight for gestation,2015,1190642.425
+World,Low bonemineraldensity,2015,311543.9436
+World,Low physicalactivity,2015,1215129.403
+World,No access to handwashing facility,2015,725483.9705
+World,Nonexclusive breastfeeding,2015,178114.3003
+World,Secondhand smoke,2015,1191774.354
+World,Smoking,2015,6936294.573
+World,Unsafe sanitation,2015,810246.0167
+World,Unsafe sex,2015,1158737.01
+World,Unsafe watersource,2015,1245322.727
+World,VitaminA deficiency,2015,266130.6717
+World,Zinc deficiency,2015,32685.41393
+World,Air Pollution,2015,4875230.894
+World,Indoor Air Pollution,2015,1705654.026
+World,Outdoor Air Pollution,2015,3318502.52
+World,Alcohol use,2016,2817609.639
+World,Child stunting,2016,238094.9289
+World,Child wasting,2016,1127761.579
+World,Diet high in red meat,2016,24015.33789
+World,Diet high in sodium,2016,3163601.091
+World,Diet low  in nutsandseeds,2016,2042618.715
+World,Diet low in calcium,2016,181830.0617
+World,Diet low in fiber,2016,865112.2571
+World,Diet low in fruits,2016,2420710.187
+World,Diet low in legumes,2016,529682.4987
+World,Diet low in seafood omega3fattyacids,2016,1432956.553
+World,Diet low in vegetables,2016,1459655.852
+World,Diet low in whole grains,2016,3039445.438
+World,Discontinued breastfeeding,2016,10414.22949
+World,Drugs,2016,572922.967
+World,High bloodpressure,2016,10293777.65
+World,High bodymass  index,2016,4614666.262
+World,High fasting plasma glucose,2016,6399256.514
+World,Iron deficiency,2016,61127.83419
+World,Low birth weight for gestation,2016,1141966.3
+World,Low bonemineraldensity,2016,320874.8974
+World,Low physicalactivity,2016,1242710.433
+World,No access to handwashing facility,2016,709112.6848
+World,Nonexclusive breastfeeding,2016,168080.7873
+World,Secondhand smoke,2016,1209977.188
+World,Smoking,2016,7046703.251
+World,Unsafe sanitation,2016,779071.6073
+World,Unsafe sex,2016,1101959.739
+World,Unsafe watersource,2016,1220145.311
+World,VitaminA deficiency,2016,246659.1666
+World,Zinc deficiency,2016,30303.85977
+World,Air Pollution,2016,4863821.567
+World,Indoor Air Pollution,2016,1696332.02
+World,Outdoor Air Pollution,2016,3317660.44
+World,Alcohol use,2017,2842854.196
+World,Child stunting,2017,220677.9805
+World,Child wasting,2017,1077101.961
+World,Diet high in red meat,2017,24833.29475
+World,Diet high in sodium,2017,3196514.265
+World,Diet low  in nutsandseeds,2017,2062521.709
+World,Diet low in calcium,2017,184760.1167
+World,Diet low in fiber,2017,873407.7769
+World,Diet low in fruits,2017,2423447.368
+World,Diet low in legumes,2017,534767.1312
+World,Diet low in seafood omega3fattyacids,2017,1444907.224
+World,Diet low in vegetables,2017,1462367.411
+World,Diet low in whole grains,2017,3065588.513
+World,Discontinued breastfeeding,2017,10011.80923
+World,Drugs,2017,585348.1802
+World,High bloodpressure,2017,10440818.48
+World,High bodymass  index,2017,4724346.293
+World,High fasting plasma glucose,2017,6526028.193
+World,Iron deficiency,2017,59881.94912
+World,Low birth weight for gestation,2017,1096977.205
+World,Low bonemineraldensity,2017,327314.2626
+World,Low physicalactivity,2017,1263051.288
+World,No access to handwashing facility,2017,707247.7129
+World,Nonexclusive breastfeeding,2017,160983.3744
+World,Secondhand smoke,2017,1220044.162
+World,Smoking,2017,7099111.294
+World,Unsafe sanitation,2017,774240.9861
+World,Unsafe sex,2017,1028619.949
+World,Unsafe watersource,2017,1232368.284
+World,VitaminA deficiency,2017,232776.7354
+World,Zinc deficiency,2017,28594.52635
+World,Air Pollution,2017,4895475.998
+World,Indoor Air Pollution,2017,1640599.784
+World,Outdoor Air Pollution,2017,3408877.62
