@@ -1,0 +1,207 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
+  "background": "white",
+  "padding": 5,
+  "width": 400,
+  "height": 500,
+  "title": {
+    "text": "Global number of deaths by risk factor",
+    "fontSize": 16,
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/nirvashi-ramgutty/FIT3179/master/data/world_riskfactors.csv",
+      "format": {"type": "csv", "delimiter": ","},
+      "transform": [
+        {"type": "filter", "expr": "datum.Year == year_selection"},
+        {
+          "type": "window",
+          "params": [null],
+          "as": ["rank"],
+          "ops": ["rank"],
+          "fields": [null],
+          "sort": {"field": ["deaths"], "order": ["descending"]}
+        },
+        {"type": "filter", "expr": "datum.rank <= 15"}
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["cause", "deaths"],
+          "ops": ["sum"],
+          "fields": ["deaths"],
+          "as": ["sum_deaths"]
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"sum_deaths\"]) && isFinite(+datum[\"sum_deaths\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["cause"],
+          "field": "sum_deaths",
+          "sort": {"field": ["deaths"], "order": ["ascending"]},
+          "as": ["sum_deaths_start", "sum_deaths_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"deaths\"]) && isFinite(+datum[\"deaths\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "year_selection",
+      "value": 1990,
+      "bind": {
+        "input": "range",
+        "min": 1990,
+        "max": 2017,
+        "step": 1,
+        "name": "Year Selection: "
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "rect",
+      "style": ["bar"],
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "deaths"},
+          "ariaRoleDescription": {"value": "bar"},
+          "description": {
+            "signal": "\"cause: \" + (isValid(datum[\"cause\"]) ? datum[\"cause\"] : \"\"+datum[\"cause\"]) + \"; Sum of deaths: \" + (format(datum[\"sum_deaths\"], \"\")) + \"; Total deaths: \" + (format(datum[\"deaths\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "sum_deaths_end"},
+          "x2": {"scale": "x", "field": "sum_deaths_start"},
+          "y": {"scale": "y", "field": "cause"},
+          "height": {"scale": "y", "band": 1}
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "text",
+      "style": ["text"],
+      "aria": false,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "align": {"value": "right"},
+          "fill": [
+            {"test": "datum[\"count\"]>10", "value": "white"},
+            {"value": "black"}
+          ],
+          "x": {"scale": "x", "field": "sum_deaths", "offset": 40},
+          "y": {"scale": "y", "field": "cause", "band": 0.5},
+          "text": {"signal": "format(datum[\"deaths\"], \".3s\")"},
+          "baseline": {"value": "middle"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_2", "field": "sum_deaths_start"},
+          {"data": "data_2", "field": "sum_deaths_end"},
+          {"data": "data_1", "field": "sum_deaths"}
+        ]
+      },
+      "range": [0, {"signal": "width"}],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "data": "source_0",
+        "field": "cause",
+        "sort": {"op": "sum", "field": "deaths", "order": "descending"}
+      },
+      "range": [0, {"signal": "height"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "data_2", "field": "deaths"},
+      "range": "ramp",
+      "interpolate": "hcl",
+      "zero": false
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFontSize": 12,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "labelFontSize": 12,
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "orient": "bottom",
+      "title": "Total deaths",
+      "fill": "color",
+      "direction": "horizontal",
+      "gradientLength": {"signal": "clamp(width, 100, 200)"}
+    }
+  ],
+  "config": {}
+}
