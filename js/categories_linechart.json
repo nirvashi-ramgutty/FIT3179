@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "background": "white",
   "padding": 5,
-  "width": 650,
+  "width": 635,
   "height": 410,
   "title": {
     "text": "Global Death Rate from Air Pollution",
